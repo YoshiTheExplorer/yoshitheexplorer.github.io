@@ -206,7 +206,10 @@ h5 {
 
 #home h1 {
     border: 6px solid #D43F52;
-    color: #D43F52;
+    color: transparent; /* Make the text transparent */
+    background: linear-gradient(to right, white, blue); /* Gradient from white to blue */
+    -webkit-background-clip: text; /* Clip the gradient to the text */
+    background-clip: text; /* For other browsers */
     display: inline-block;
     letter-spacing: 6px;
     padding: 25px 35px;
