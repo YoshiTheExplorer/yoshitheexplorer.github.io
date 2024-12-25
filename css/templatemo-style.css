@@ -240,7 +240,7 @@ h5 {
 }
 
 #home .btn:hover {
-    background: #D43F52;
+    background: #ba4edb;
     border-color: transparent;
 }
 
@@ -262,7 +262,7 @@ h5 {
 #work .media .fa {
     border: 2px solid #ffffff;
     border-radius: 50%;
-    color: #D43F52;
+    color: #ba4edb;
     font-size: 24px;
     margin-right: 24px;
     width: 60px;
@@ -289,7 +289,7 @@ h5 {
 /* start about */
 #about h4 {
     padding: 15px 0;
-    color: #D43F52;
+    color: #ba4edb;
 }
 
 #about .progress {
@@ -299,7 +299,7 @@ h5 {
 }
 
 #about .progress .progress-bar-danger {
-    background: #D43F52;
+    background: #ba4edb;
 }
 
 #about .text-top {
@@ -337,7 +337,7 @@ h5 {
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {
-    background: #D43F52;
+    background: #ba4edb;
     top: 0;
     left: 0;
     right: 0;
@@ -374,7 +374,7 @@ h5 {
 #contact .fa {
     border: 2px solid #ffffff;
     border-radius: 50%;
-    color: #D43F52;
+    color: #ba4edb;
     width: 50px;
     height: 50px;
     line-height: 45px;
@@ -396,7 +396,7 @@ h5 {
 }
 
 #contact input[type="submit"] {
-    background: #D43F52;
+    background: #ba4edb;
     border: 2px solid transparent;
     color: #ffffff;
     font-weight: bold;
@@ -405,7 +405,7 @@ h5 {
 
 #contact input[type="submit"]:hover {
     background: #ffffff;
-    color: #D43F52;
+    color: #ba4edb;
 }
 
 /* end contact */
@@ -446,7 +446,7 @@ footer hr {
 }
 
 .social-icon li a:hover {
-    color: #D43F52;
+    color: #ba4edb;
 }
 
 /* end social icon */
