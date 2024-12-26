@@ -207,8 +207,8 @@ h5 {
 #home h1 {
     border: 6px solid white; /* Change border color to white */
     color: transparent; /* Make the text transparent */
-    background: #DD00FF;
-    background: repeating-radial-gradient(ellipse farthest-corner at center center, #DD00FF 0%, #FFFFFF 98%);
+    background: #FF99F1;
+    background: repeating-radial-gradient(ellipse farthest-corner at center center, #FF99F1 0%, #FFFFFF 98%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
