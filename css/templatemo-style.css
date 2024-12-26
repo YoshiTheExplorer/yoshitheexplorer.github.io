@@ -175,6 +175,28 @@ h5 {
 
 /* end simpletextrotator */
 
+/* Default font size for large screens */
+.rotate {
+    font-size: 5rem; /* Default size */
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+/* Responsive font size for smaller screens */
+@media (max-width: 768px) {
+    .rotate {
+        font-size: 3rem; /* Adjust font size for tablets and small devices */
+    }
+}
+
+@media (max-width: 480px) {
+    .rotate {
+        font-size: 2rem; /* Adjust font size for very small screens (e.g., phones) */
+    }
+}
+
 /* start home */
 #home {
     background: url('../images/yokohama.jpg');
