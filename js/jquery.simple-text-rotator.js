@@ -16,7 +16,7 @@
   var defaults = {
 		animation: "dissolve",
 		separator: ",",
-		speed: 15000
+		speed: 6000
 	};
 	
   $.fn.textrotator = function(options){
