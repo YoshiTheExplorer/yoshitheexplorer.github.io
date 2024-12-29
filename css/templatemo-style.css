@@ -436,7 +436,8 @@ h5 {
 
 /* Title styling (Larger text size) */
 .portfolio-description h4 {
-    font-size: 1.8rem; /* Increased size for better visibility */
+    font-size: 1.8rem;
+    /* Increased size for better visibility */
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 15px;
@@ -444,12 +445,29 @@ h5 {
 
 /* Description styling (Larger text size) */
 .portfolio-description p {
-    font-size: 1.1rem; /* Increased size for better readability */
+    font-size: 1.1rem;
+    /* Increased size for better readability */
     color: #bbbbbb;
-    line-height: 1.8; /* Adjusted for better spacing */
+    line-height: 1.8;
+    /* Adjusted for better spacing */
     margin: 0;
-    text-overflow: ellipsis; /* Truncates long text with ellipsis */
-    overflow: hidden; /* Prevents overflowing text */
+    text-overflow: ellipsis;
+    /* Truncates long text with ellipsis */
+    overflow: hidden;
+    /* Prevents overflowing text */
+}
+
+/* Add a white border around the project card */
+.with-border {
+    border: 2px solid #ffffff; /* White border */
+    border-radius: 10px; /* Optional: Rounds the corners */
+    padding: 10px; /* Adds spacing between the content and border */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+.with-border:hover {
+    transform: translateY(-5px); /* Hover lift effect */
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3); /* Subtle white glow on hover */
 }
 
 /* end portfolio */
